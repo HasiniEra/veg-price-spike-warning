@@ -1,0 +1,6 @@
+rule,alerts,accuracy,balanced_accuracy,precision,recall,F1
+Never alert (baseline),0,81.2,50.0,0.0,0.0,0.0
+Top 5% riskiest weeks,75,82.4,57.0,61.3,16.3,25.8
+Top 10% riskiest weeks,150,81.8,61.1,52.7,28.0,36.6
+Top 20% riskiest weeks,300,79.4,67.4,45.3,48.2,46.7
+Calibrated probability >= 0.5,236,80.7,65.2,48.3,40.4,44.0

@@ -1,0 +1,4 @@
+level,weeks,share,actual_spike_rate,mean_pred
+High (>=40%),237,0.158,0.481,0.601
+Low (<20%),827,0.55,0.07,0.087
+Medium (20-40%),439,0.292,0.251,0.25

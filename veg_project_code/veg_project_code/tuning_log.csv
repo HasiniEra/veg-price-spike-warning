@@ -1,0 +1,77 @@
+model,params,val_AUC
+LDA (new),"{'shrinkage': 0.0, 'with_item': False}",0.6513250544104467
+LDA (new),"{'shrinkage': 0.0, 'with_item': True}",0.6776981180386634
+LDA (new),"{'shrinkage': 0.05, 'with_item': False}",0.695890410958904
+LDA (new),"{'shrinkage': 0.05, 'with_item': True}",0.7215721418512354
+LDA (new),"{'shrinkage': 0.1, 'with_item': False}",0.6965945461528613
+LDA (new),"{'shrinkage': 0.1, 'with_item': True}",0.7230188196133658
+LDA (new),"{'shrinkage': 0.2, 'with_item': False}",0.6966713609012931
+LDA (new),"{'shrinkage': 0.2, 'with_item': True}",0.7214697221866598
+LDA (new),"{'shrinkage': 0.3, 'with_item': False}",0.6967609781077968
+LDA (new),"{'shrinkage': 0.3, 'with_item': True}",0.7187684035334785
+LDA (new),"{'shrinkage': 0.5, 'with_item': False}",0.6940468569965432
+LDA (new),"{'shrinkage': 0.5, 'with_item': True}",0.7136346178466265
+LDA (new),"{'shrinkage': 0.7, 'with_item': False}",0.6874279861733452
+LDA (new),"{'shrinkage': 0.7, 'with_item': True}",0.7047369094866214
+LDA (new),"{'shrinkage': 0.9, 'with_item': False}",0.6645243886826271
+LDA (new),"{'shrinkage': 0.9, 'with_item': True}",0.6815132505441046
+QDA,"{'reg_param': 0.1, 'with_item': False}",0.6654461656638074
+QDA,"{'reg_param': 0.1, 'with_item': True}",0.7508001536294968
+QDA,"{'reg_param': 0.3, 'with_item': False}",0.6781974139034694
+QDA,"{'reg_param': 0.3, 'with_item': True}",0.7547433107156575
+QDA,"{'reg_param': 0.5, 'with_item': False}",0.6802073998207656
+QDA,"{'reg_param': 0.5, 'with_item': True}",0.7606964537191141
+QDA,"{'reg_param': 0.7, 'with_item': False}",0.6770067853027781
+QDA,"{'reg_param': 0.7, 'with_item': True}",0.7587248751760338
+QDA,"{'reg_param': 0.9, 'with_item': False}",0.6591857636666238
+QDA,"{'reg_param': 0.9, 'with_item': True}",0.7109332991934451
+Logistic Reg.,"{'C': 0.003, 'with_item': False}",0.6958263986685445
+Logistic Reg.,"{'C': 0.003, 'with_item': True}",0.7169888618614774
+Logistic Reg.,"{'C': 0.01, 'with_item': False}",0.6970426321853797
+Logistic Reg.,"{'C': 0.01, 'with_item': True}",0.7225451286647036
+Logistic Reg.,"{'C': 0.03, 'with_item': False}",0.6959928306234797
+Logistic Reg.,"{'C': 0.03, 'with_item': True}",0.7227499679938549
+Logistic Reg.,"{'C': 0.1, 'with_item': False}",0.6944437331967738
+Logistic Reg.,"{'C': 0.1, 'with_item': True}",0.7199846370503137
+Logistic Reg.,"{'C': 0.3, 'with_item': False}",0.6917936243758801
+Logistic Reg.,"{'C': 0.3, 'with_item': True}",0.7163999487901678
+Logistic Reg.,"{'C': 1, 'with_item': False}",0.6856612469594161
+Logistic Reg.,"{'C': 1, 'with_item': True}",0.7120087056714889
+Random Forest,"{'leaf': 10, 'mf': 0.3, 'with_item': True}",0.6781974139034694
+Random Forest,"{'leaf': 10, 'mf': 0.6, 'with_item': True}",0.6797337088721035
+Random Forest,"{'leaf': 30, 'mf': 0.3, 'with_item': True}",0.6835232364614006
+Random Forest,"{'leaf': 30, 'mf': 0.6, 'with_item': True}",0.679836128536679
+Random Forest,"{'leaf': 60, 'mf': 0.3, 'with_item': True}",0.6790295736781462
+Random Forest,"{'leaf': 60, 'mf': 0.6, 'with_item': True}",0.6777237229548073
+XGBoost,"{'depth': 2, 'lr': 0.03, 'n': 150, 'with_item': True}",0.6743182691076686
+XGBoost,"{'depth': 2, 'lr': 0.03, 'n': 300, 'with_item': True}",0.6781462040711818
+XGBoost,"{'depth': 2, 'lr': 0.1, 'n': 150, 'with_item': True}",0.672986813468186
+XGBoost,"{'depth': 2, 'lr': 0.1, 'n': 300, 'with_item': True}",0.6713096914607605
+XGBoost,"{'depth': 3, 'lr': 0.03, 'n': 150, 'with_item': True}",0.6827166816028678
+XGBoost,"{'depth': 3, 'lr': 0.03, 'n': 300, 'with_item': True}",0.6792856228395852
+XGBoost,"{'depth': 3, 'lr': 0.1, 'n': 150, 'with_item': True}",0.6641019075662526
+XGBoost,"{'depth': 3, 'lr': 0.1, 'n': 300, 'with_item': True}",0.6717193701190629
+XGBoost,"{'depth': 5, 'lr': 0.03, 'n': 150, 'with_item': True}",0.6733324798361285
+XGBoost,"{'depth': 5, 'lr': 0.03, 'n': 300, 'with_item': True}",0.6769427730124185
+XGBoost,"{'depth': 5, 'lr': 0.1, 'n': 150, 'with_item': True}",0.6817052874151837
+XGBoost,"{'depth': 5, 'lr': 0.1, 'n': 300, 'with_item': True}",0.6989245935219562
+LightGBM,"{'leaves': 3, 'lr': 0.03, 'n': 150, 'mcs': 20, 'with_item': True}",0.6728587888874664
+LightGBM,"{'leaves': 3, 'lr': 0.03, 'n': 150, 'mcs': 60, 'with_item': True}",0.6717833824094226
+LightGBM,"{'leaves': 3, 'lr': 0.03, 'n': 300, 'mcs': 20, 'with_item': True}",0.6839969274100628
+LightGBM,"{'leaves': 3, 'lr': 0.03, 'n': 300, 'mcs': 60, 'with_item': True}",0.6814236333376008
+LightGBM,"{'leaves': 3, 'lr': 0.1, 'n': 150, 'mcs': 20, 'with_item': True}",0.6863141723210857
+LightGBM,"{'leaves': 3, 'lr': 0.1, 'n': 150, 'mcs': 60, 'with_item': True}",0.6817116886442196
+LightGBM,"{'leaves': 3, 'lr': 0.1, 'n': 300, 'mcs': 20, 'with_item': True}",0.6887338368966841
+LightGBM,"{'leaves': 3, 'lr': 0.1, 'n': 300, 'mcs': 60, 'with_item': True}",0.682422225067213
+LightGBM,"{'leaves': 7, 'lr': 0.03, 'n': 150, 'mcs': 20, 'with_item': True}",0.6787991294328513
+LightGBM,"{'leaves': 7, 'lr': 0.03, 'n': 150, 'mcs': 60, 'with_item': True}",0.675764946869799
+LightGBM,"{'leaves': 7, 'lr': 0.03, 'n': 300, 'mcs': 20, 'with_item': True}",0.6839329151197031
+LightGBM,"{'leaves': 7, 'lr': 0.03, 'n': 300, 'mcs': 60, 'with_item': True}",0.6791832031750098
+LightGBM,"{'leaves': 7, 'lr': 0.1, 'n': 150, 'mcs': 20, 'with_item': True}",0.6835232364614006
+LightGBM,"{'leaves': 7, 'lr': 0.1, 'n': 150, 'mcs': 60, 'with_item': True}",0.6801433875304058
+LightGBM,"{'leaves': 7, 'lr': 0.1, 'n': 300, 'mcs': 20, 'with_item': True}",0.6832031750096019
+LightGBM,"{'leaves': 7, 'lr': 0.1, 'n': 300, 'mcs': 60, 'with_item': True}",0.6858660862885674
+EBM (benchmark),"{'lr': 0.02, 'interactions': 0}",0.696953014978876
+EBM (benchmark),"{'lr': 0.02, 'interactions': 8}",0.6914607604660093
+EBM (benchmark),"{'lr': 0.05, 'interactions': 0}",0.6985917296120856
+EBM (benchmark),"{'lr': 0.05, 'interactions': 8}",0.6927282038151324

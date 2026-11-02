@@ -1,0 +1,7 @@
+rule,alerts,accuracy,balanced_acc,precision,recall,F1,TP,FP,FN,TN
+Never alert (baseline),0,81.2,50.0,0.0,0.0,0.0,0,0,282,1221
+Prob >= 0.5,473,74.3,70.8,38.9,65.2,48.7,184,289,98,932
+Prob >= 0.64 (best F1 on validation),366,77.4,68.6,42.1,54.6,47.5,154,212,128,1009
+Top 5% riskiest weeks,75,82.4,57.0,61.3,16.3,25.8,46,29,236,1192
+Top 10% riskiest weeks,150,81.9,61.3,53.3,28.4,37.0,80,70,202,1151
+Top 20% riskiest weeks,300,79.2,67.2,45.0,47.9,46.4,135,165,147,1056
